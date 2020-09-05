@@ -13,7 +13,6 @@
 		833C7C2E2502F67900F57CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833C7C2D2502F67900F57CD7 /* Assets.xcassets */; };
 		833C7C312502F67900F57CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833C7C2F2502F67900F57CD7 /* LaunchScreen.storyboard */; };
 		8379F8EA2502F7400017B7C6 /* BuzzBLE in Frameworks */ = {isa = PBXBuildFile; productRef = 8379F8E92502F7400017B7C6 /* BuzzBLE */; };
-		8379F8ED2502F74B0017B7C6 /* BirdbrainBLE in Frameworks */ = {isa = PBXBuildFile; productRef = 8379F8EC2502F74B0017B7C6 /* BirdbrainBLE */; };
 		837F48E425035ABD0030FE08 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 837F48E325035ABD0030FE08 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8379F8ED2502F74B0017B7C6 /* BirdbrainBLE in Frameworks */,
 				8379F8EA2502F7400017B7C6 /* BuzzBLE in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,7 +87,6 @@
 			name = "Buzz Explorer";
 			packageProductDependencies = (
 				8379F8E92502F7400017B7C6 /* BuzzBLE */,
-				8379F8EC2502F74B0017B7C6 /* BirdbrainBLE */,
 			);
 			productName = "Buzz Explorer";
 			productReference = 833C7C232502F67800F57CD7 /* Buzz Explorer.app */;
@@ -121,7 +118,6 @@
 			mainGroup = 833C7C1A2502F67700F57CD7;
 			packageReferences = (
 				8379F8E82502F7400017B7C6 /* XCRemoteSwiftPackageReference "BuzzBLE" */,
-				8379F8EB2502F74B0017B7C6 /* XCRemoteSwiftPackageReference "BirdbrainBLE" */,
 			);
 			productRefGroup = 833C7C242502F67800F57CD7 /* Products */;
 			projectDirPath = "";
@@ -364,14 +360,6 @@
 				kind = branch;
 			};
 		};
-		8379F8EB2502F74B0017B7C6 /* XCRemoteSwiftPackageReference "BirdbrainBLE" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:chrisbartley/BirdbrainBLE.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -379,11 +367,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8379F8E82502F7400017B7C6 /* XCRemoteSwiftPackageReference "BuzzBLE" */;
 			productName = BuzzBLE;
-		};
-		8379F8EC2502F74B0017B7C6 /* BirdbrainBLE */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8379F8EB2502F74B0017B7C6 /* XCRemoteSwiftPackageReference "BirdbrainBLE" */;
-			productName = BirdbrainBLE;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -8,7 +8,6 @@
 
 import UIKit
 import BuzzBLE
-import BirdbrainBLE
 
 class ViewController: UIViewController {
    @IBOutlet var scanningStackView: UIStackView!
