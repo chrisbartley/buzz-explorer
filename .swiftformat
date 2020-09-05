@@ -1,0 +1,47 @@
+--allman false
+--binarygrouping ignore
+--closingparen same-line
+--commas always
+--conflictmarkers reject
+--decimalgrouping ignore
+--elseposition same-line
+--exponentcase lowercase
+--exponentgrouping disabled
+--fractiongrouping disabled
+--fragment false
+--funcattributes preserve
+--guardelse auto
+--header ignore
+--hexgrouping ignore
+--hexliteralcase uppercase
+--ifdef indent
+--importgrouping testable-bottom
+--indent 3
+--indentcase true
+--linebreaks lf
+--maxwidth none
+--modifierorder 
+--nospaceoperators ...,..<
+--nowrapoperators 
+--octalgrouping ignore
+--operatorfunc spaced
+--patternlet hoist
+--self remove
+--selfrequired 
+--semicolons inline
+--shortoptionals always
+--smarttabs enabled
+--stripunusedargs closure-only
+--tabwidth 3
+--trailingclosures 
+--trimwhitespace always
+--typeattributes preserve
+--varattributes preserve
+--voidtype void
+--wraparguments after-first
+--wrapcollections preserve
+--wrapparameters after-first
+--xcodeindentation disabled
+--yodaswap always
+--disable andOperator,preferKeyPath,sortedImports,wrapMultilineStatementBraces
+--enable isEmpty

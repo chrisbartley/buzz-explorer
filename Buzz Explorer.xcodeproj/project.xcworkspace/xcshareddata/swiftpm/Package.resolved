@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BirdbrainBLE",
+        "repositoryURL": "git@github.com:chrisbartley/BirdbrainBLE.git",
+        "state": {
+          "branch": "master",
+          "revision": "4bc4951aa1eab75d4b97f7606ff804ce8e66e993",
+          "version": null
+        }
+      },
+      {
+        "package": "BuzzBLE",
+        "repositoryURL": "git@github.com:chrisbartley/BuzzBLE.git",
+        "state": {
+          "branch": "master",
+          "revision": "f1ead2bf59256a5329c6b2ef6d62bd30727db06f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
