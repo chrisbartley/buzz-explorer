@@ -83,14 +83,14 @@ extension ViewController: BuzzManagerDelegate {
       }
    }
 
-   func didUpdateState(to state: BuzzManagerState) {
+   func didUpdateState(_ buzzManager: BuzzManager, to state: BuzzManagerState) {
       print("BuzzManagerDelegate.didUpdateState: \(state)")
       if state == .enabled {
          scan()
       }
    }
 
-   func didDiscover(uuid: UUID, advertisementData: [String: Any], rssi: NSNumber) {
+   func didDiscover(_ buzzManager: BuzzManager, uuid: UUID, advertisementData: [String: Any], rssi: NSNumber) {
       if buzzManager.connectToBuzz(havingUUID: uuid) {
          print("BuzzManagerDelegate.didDiscover: uuid=\(uuid), attempting to connect...")
       } else {
@@ -98,15 +98,15 @@ extension ViewController: BuzzManagerDelegate {
       }
    }
 
-   func didRediscover(uuid: UUID, advertisementData: [String: Any], rssi: NSNumber) {
+   func didRediscover(_ buzzManager: BuzzManager, uuid: UUID, advertisementData: [String: Any], rssi: NSNumber) {
       // print("BuzzManagerDelegate.didRediscover: uuid=\(uuid)")
    }
 
-   func didDisappear(uuid: UUID) {
+   func didDisappear(_ buzzManager: BuzzManager, uuid: UUID) {
       print("BuzzManagerDelegate.didDisappear: uuid=\(uuid)")
    }
 
-   func didConnectTo(uuid: UUID) {
+   func didConnectTo(_ buzzManager: BuzzManager, uuid: UUID) {
       if let buzz = buzzManager.getBuzz(uuid: uuid) {
          print("BuzzManagerDelegate.didConnectTo: uuid=\(uuid)")
 
@@ -139,7 +139,7 @@ extension ViewController: BuzzManagerDelegate {
       }
    }
 
-   func didDisconnectFrom(uuid: UUID, error: Error?) {
+   func didDisconnectFrom(_ buzzManager: BuzzManager, uuid: UUID, error: Error?) {
       print("BuzzManagerDelegate.didDisconnectFrom: uuid=\(uuid)")
 
       buzz = nil
@@ -147,7 +147,7 @@ extension ViewController: BuzzManagerDelegate {
       scan()
    }
 
-   func didFailToConnectTo(uuid: UUID, error: Error?) {
+   func didFailToConnectTo(_ buzzManager: BuzzManager, uuid: UUID, error: Error?) {
       print("BuzzManagerDelegate.didFailToConnectTo: uuid=\(uuid)")
    }
 }
