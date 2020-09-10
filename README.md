@@ -4,4 +4,4 @@ Simple iOS app for reading device info from a [Neosensory Buzz](https://neosenso
 
 Tested on an iPhone XS running iOS 13.7 and an iPad Mini 4 running iOS 12.0. Will probably look terrible on a small iPhone screen. 
 
-![Buzz Explorer screenshot](./screenshot.jpg =375x812)
+<img src="screenshot.jpg" width="375">
