@@ -3,7 +3,7 @@
 //  Buzz Explorer
 //
 //  Created by Chris Bartley on 9/4/20.
-//  Copyright © 2020 Chris Bartley. All rights reserved.
+//  Copyright (c) 2020 Chris Bartley. Licensed under the MIT license. See LICENSE file.
 //
 
 import UIKit
