@@ -364,8 +364,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:chrisbartley/BuzzBLE.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

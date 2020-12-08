@@ -6,17 +6,17 @@
         "repositoryURL": "git@github.com:chrisbartley/BirdbrainBLE.git",
         "state": {
           "branch": null,
-          "revision": "1f048c7d44f126ef54947ff74d25c0c5a88f6459",
-          "version": "0.6.1"
+          "revision": "b9284b52f08c820a26d8d441792ab7b1c144d73f",
+          "version": "0.7.0"
         }
       },
       {
         "package": "BuzzBLE",
         "repositoryURL": "git@github.com:chrisbartley/BuzzBLE.git",
         "state": {
-          "branch": "master",
-          "revision": "fe19d4e1b1b2076cd0abb906ed806c6ab17d8a51",
-          "version": null
+          "branch": null,
+          "revision": "8372279c51c1dc2a5d83277aa7665809de66b230",
+          "version": "0.9.0"
         }
       }
     ]
