@@ -121,7 +121,7 @@ extension ViewController: BuzzManagerDelegate {
 
          // register self as delegate and enable communication
          buzz.delegate = self
-         buzz.enableCommuication()
+         buzz.enableCommunication()
 
          DispatchQueue.main.async {
             self.scanningStackView.isHidden = true
